@@ -216,6 +216,7 @@ This tracks the number of claimed One Time Keys that have 0 for the `remaining_k
 
 ##### OTKRegenerated
 
+This tracks the number of times the `/new-key-claim` endpoint is called with an existing `hashID`. When this occurs the existing One Time Key is deleted and a new one is generated in it's place.
 
 #### Prometheus 
 
